@@ -2,8 +2,8 @@ package ejercicio1;
 
 public class Cuadrado extends PoligonoRegular {
 
-	public Cuadrado(double longitudLado, int nlados) {
-		super("Cuadrado", longitudLado, nlados);
+	public Cuadrado(double longitudLado) {
+		super("Cuadrado", longitudLado, 4);
 		// TODO Auto-generated constructor stub
 	}
 

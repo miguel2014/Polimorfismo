@@ -4,6 +4,7 @@ public abstract class PoligonoRegular {
 	private String nombre;
 	protected double longitudLado;
 	protected int nlados;
+	int numeroObjecto=0;
 	/**
 	 * @param nombre
 	 * @param longitudLado
@@ -48,6 +49,8 @@ public abstract class PoligonoRegular {
 			return false;
 		return true;
 	}
+	@Override
+	
 	public String toString() {
 		return "PoligonoRegular [nombre=" + nombre + ", longitudLado="
 				+ longitudLado + ", nlados=" + nlados + "]";
