@@ -9,7 +9,11 @@ public class TestMath3 {
 		System.out.println(m.max(numerosReales));
 		System.out.println(m.min(numerosEnteros));
 		System.out.println(m.min(numerosReales));
-		
+		System.out.println("------------------------------");
+		System.out.println(Extremos1.max(numerosReales));
+		System.out.println(Extremos1.max(numerosEnteros));
+		System.out.println(Extremos1.min(numerosReales));
+		System.out.println(Extremos1.min(numerosEnteros));
 		
 	}
 }
